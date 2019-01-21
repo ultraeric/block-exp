@@ -1,0 +1,25 @@
+.txn-page {
+  min-height: 100vh;
+  .link {
+    color: $accent-color-dark;
+    text-decoration: underline;
+    font-size: 0.9em;
+  }
+  .link:hover {
+    color: $accent-color;
+    cursor: pointer;
+  }
+
+  .hash {
+    font-size: 0.8em;
+  }
+
+  .label {
+    color: gray;
+  }
+
+  .list-item-header {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+}

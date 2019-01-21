@@ -1,0 +1,19 @@
+// @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import '~static/styles/style.scss';
+@import './Pages/style.scss';
+@import './Footer/style.scss';
+@import './Header/style.scss';
+
+.app-root {
+  font-family: 'Open Sans', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  opacity: 1;
+}
+
+.content-container {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+@import './_Backdrop/style.scss';
+@import './Home/style.scss';
+@import './Block/style.scss';
+@import './Txn/style.scss';
+
+
+.page {
+  min-height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
+  h3.page-title {
+    margin-top: 10vh;
+  }
+  > * {
+    min-height: 50vh;
+    @media #{$tablet-query} {
+      padding-left: calc(15% - 72px);
+      padding-right: calc(15% - 72px);
+    }
+
+    @media #{$desktop-query} {
+      padding-left: calc(27.5% - 146px);
+      padding-right: calc(27.5% - 146px);
+    }
+  }
+}
+
+// For any informational pages
+.info-page {
+  min-height: 100vh;
+  > img {
+    position: absolute;
+    right: 0;
+  }
+}

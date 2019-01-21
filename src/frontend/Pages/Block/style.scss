@@ -1,0 +1,24 @@
+.block-page {
+  min-height: 100vh;
+  .link {
+    color: $accent-color-dark;
+    text-decoration: underline;
+    font-size: 0.9em;
+  }
+  .link:hover {
+    color: $accent-color;
+    cursor: pointer;
+  }
+
+  .hash {
+    font-size: 0.8em;
+  }
+
+  .bold-row {
+    font-weight: bold;
+  }
+
+  .clickable:hover {
+    cursor:pointer;
+  }
+}
